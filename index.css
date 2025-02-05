@@ -1,0 +1,42 @@
+div p {
+    font-weight: bold;
+    font-size: large;
+    padding: 60px;
+    margin: 40px;
+    width: 150px;
+    text-align: center;
+}  
+.one{
+    border: 7px solid rgb(72, 225, 72);
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    border-right: ridge 30px rgb(5, 240, 56);
+    border-left: groove 30px rgb(5, 240, 56);
+    border-top: groove 5px  rgb(72, 225, 72) ;
+    border-bottom-style: dashed;
+}
+.two{
+    border-radius: 200px;
+    border-right: double 15px rgb(244, 92, 244);
+    border-left: double 15px rgb(244, 92, 244);
+}
+.three{
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: rgb(5, 240, 56) yellow rgb(79, 180, 220) rgb(242, 66, 172);
+    border-style: groove;
+    border-width: 15px;
+}
+.fourth{
+    background-color:  rgb(5, 240, 56);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 200px;
+    border-top: 5px outset  rgb(79, 180, 220)  ;
+    border-right: 50px inset rgb(79, 180, 220) ;
+    border-left: 50px outset rgb(242, 66, 172) ;
+    border-bottom: 5px inset rgb(242, 66, 172)  ;
+}
